@@ -16,6 +16,7 @@ return new class extends Migration
             $table->text('content');
             $table->integer('score');
             $table->text('feedback');
+            $table->text('corrected_content');
             $table->timestamps();
         });
     }
